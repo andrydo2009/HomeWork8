@@ -49,7 +49,7 @@ public class Main {
         bunchNumbers2[0] = 1;
         bunchNumbers2[1] = 2;
         bunchNumbers2[2] = 3;
-        for (int i = 2; i >= 0; i--)
+        for (int i = bunchNumbers2.length-1; i >= 0; i--)
             if (i > 0) {
                 System.out.print(bunchNumbers2[i] + ", ");
             } else {
